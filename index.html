@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Company</title>
+    <link rel="stylesheet" href="css/main.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="animate__animated animate__backInLeft" class="offer">
+                        <img class="logo" src="img/logo.png">
+                        <div class="header-text">
+                            <div class="up-header-text">
+                                <p>С помощью нас <br/> вы сможете создать то, о чем <br/>
+                                <span>желаете!</span></p>
+                            </div>
+                            <div class="low-header-text">
+                                <p>Наши возможности и опыт позволят Вам достичь огромного успеха. Мы верим в Вас! И знаем что на все 100% Вас не остановить!</p>
+                            </div>
+                        </div>
+                        <div class="button"><button>Узнать больше...</button></div>
+                    </div>
+                    <div class="animate__animated animate__backInRight" >
+                        <div class="phone-image">
+                            <img src="img/header-img.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="needs">
+            <div class="container">
+                <div class="question"><h2>Что вам необходимо?</h2></div>
+                <div class="inner-blocks">
+                    <div class="block left">
+                        <img src="img/f3.png">
+                        <h4>Первый блок</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>            
+                    </div>
+                    <div class="block center">           
+                        <img src="img/f4.png">  
+                        <h4>Второй блок</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                    <div class="block right">
+                        <img src="img/f5.png">
+                        <h4>Третий блок</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="form-order">
+            <div class="container">
+                <div class="question"><h2>Форма заказа продукта</h2></div>
+                <div class="form">
+                    <form method="post" action="#">
+                        <div><input id="name" type="text" placeholder="Имя"></div>
+                        <div><input id="surname" type="text" placeholder="Фамилия"></div>
+                        <div><input id="address" type="text" placeholder="Адрес доставки"></div>
+                        <div><input id="email" type="email" placeholder="E-mail"></div>
+                        <div><input id="phone" type="tel" placeholder="Телефон"></div>
+                        <div><select id="payment" type="text" placeholder="Метод оплаты">
+                            <option value="empty" selected>Выберите метод оплаты</option>
+                            <option value="Курьеру наличными">Курьеру наличными</option>
+                            <option value="Курьеру по карте">Курьеру по карте</option>
+                            <option value="Онлайн на сайте">Онлайн на сайте</option>
+                        </select></div>
+                        <input class="btn" type="submit" value="Отправить заявку!">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="form-call">
+            <div class="container">
+                <div class="question">
+                    <h2>Форма заказа обратного звонка</h2>
+                </div>
+                <div class="form">
+                    <form method="post" action="#">
+                        <div>
+                            <input type="text" placeholder="Имя" required minlength="2" maxlength="25">
+                        </div>
+                        <div><input type="email" placeholder="E-mail" required></div>
+                        <div><input type="tel" pattern="8[0-9]{10}" title="Введите номер телефона в формате 8**********" placeholder="Телефон" maxlength="11" required></div>
+                        <div><input type="text" placeholder="Какая тема Вас интересует?" required minlength="6" maxlength="35"></div>
+                        <input class="btn" type="submit" value="Отправить вопрос!">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="copyright">
+                    <p>&copy Все на этом сайте защищено</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
